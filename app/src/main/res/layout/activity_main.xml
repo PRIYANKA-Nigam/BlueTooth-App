@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40sp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+    <TextView android:id="@+id/tt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="#000" android:textSize="20sp"
+        android:textStyle="bold" android:gravity="center_horizontal" />
+<ImageView android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/img"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Turn On"
+        android:minWidth="200dp" android:layout_marginTop="20dp"
+        android:id="@+id/bt"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn Off" android:layout_marginTop="15dp"
+        android:minWidth="200dp" android:id="@+id/bt2"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="15dp"
+        android:text="Discoverable" android:minWidth="200dp"
+        android:id="@+id/bt3"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Paired Devices"
+        android:minWidth="200dp"
+        android:id="@+id/bt4"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+    <TextView
+        android:id="@+id/tt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:minWidth="200dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+</LinearLayout>
